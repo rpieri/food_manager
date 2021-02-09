@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{FC9314A5-5D92-4858-8C6B-4EC4E524BCD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodManager.SharedKernel.Domain", "src\Shared\FoodManager.SharedKernel.Domain\FoodManager.SharedKernel.Domain.csproj", "{20BF5C5B-6208-40C9-9C4D-0CDFE145338A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6AD4FAC1-E7F2-42AA-A1F0-34C50864A140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodManager.SharedKernel.Application", "src\Shared\FoodManager.SharedKernel.Application\FoodManager.SharedKernel.Application.csproj", "{DCA7AF99-821A-4844-A00D-81739A2D460B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodManager.SharedKernel.Repository", "src\Shared\FoodManager.SharedKernel.Repository\FoodManager.SharedKernel.Repository.csproj", "{833C9C20-5EB8-455C-B6D7-610EB50437FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodManager.SharedKernel.Authentication", "src\Shared\FoodManager.SharedKernel.Authentication\FoodManager.SharedKernel.Authentication.csproj", "{21BFC60A-8E4D-4A8D-8EFC-6005C5A99807}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20BF5C5B-6208-40C9-9C4D-0CDFE145338A} = {FC9314A5-5D92-4858-8C6B-4EC4E524BCD0}
+		{DCA7AF99-821A-4844-A00D-81739A2D460B} = {FC9314A5-5D92-4858-8C6B-4EC4E524BCD0}
+		{833C9C20-5EB8-455C-B6D7-610EB50437FE} = {FC9314A5-5D92-4858-8C6B-4EC4E524BCD0}
+		{21BFC60A-8E4D-4A8D-8EFC-6005C5A99807} = {FC9314A5-5D92-4858-8C6B-4EC4E524BCD0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BF5C5B-6208-40C9-9C4D-0CDFE145338A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BF5C5B-6208-40C9-9C4D-0CDFE145338A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BF5C5B-6208-40C9-9C4D-0CDFE145338A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BF5C5B-6208-40C9-9C4D-0CDFE145338A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA7AF99-821A-4844-A00D-81739A2D460B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA7AF99-821A-4844-A00D-81739A2D460B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA7AF99-821A-4844-A00D-81739A2D460B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA7AF99-821A-4844-A00D-81739A2D460B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833C9C20-5EB8-455C-B6D7-610EB50437FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833C9C20-5EB8-455C-B6D7-610EB50437FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833C9C20-5EB8-455C-B6D7-610EB50437FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833C9C20-5EB8-455C-B6D7-610EB50437FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BFC60A-8E4D-4A8D-8EFC-6005C5A99807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BFC60A-8E4D-4A8D-8EFC-6005C5A99807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BFC60A-8E4D-4A8D-8EFC-6005C5A99807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BFC60A-8E4D-4A8D-8EFC-6005C5A99807}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
